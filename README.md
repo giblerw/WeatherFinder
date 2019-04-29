@@ -1,5 +1,5 @@
-##Outly Code Challenge
-####Weston Gibler
+## Outly Code Challenge
+#### Weston Gibler
 
 ### About
 Acceptance Criteria:
