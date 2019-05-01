@@ -42,7 +42,10 @@ class Map extends Component {
     };
 
     componentWillReceiveProps = (nextProps) => {
-        new mapboxgl.Popup().setLngLat(this.state.lngLat).setHTML(popUP(nextProps.locationData)).addTo(this.map);
+        new mapboxgl.Popup()
+        .setLngLat(this.state.lngLat)
+        .setHTML(popUP(nextProps.locationData))
+        .addTo(this.map);
     }
 
     render() {

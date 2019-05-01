@@ -12,9 +12,15 @@ Acceptance Criteria:
 
 In the project directory:
 
-- $ yarn or $ npm -i
+- $yarn or $npm -i
+- --> then, yarn start or npm start.
 
-- then, yarn start or npm start.
+### To test the app
+
+In the project directory:
+
+- If it is your first time running the app, first: $yarn or $npm -i.
+- --> then: $yarn test or $npm run test.
 
 ### Stack
 - React
